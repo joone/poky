@@ -25,5 +25,5 @@ LINUX_VERSION_edgerouter = "4.10.9"
 LINUX_VERSION_beaglebone = "4.10.9"
 LINUX_VERSION_mpc8315e-rdb = "4.10.9"
 
-#SRC_URI += "file:///home/joone/otc/yocto/poky/build/conf/kernel_dma_buf.patch" 
 SRC_URI += "file://kernel_dma_buf.patch" 
+SRC_URI += "file://7471827.diff" 
